@@ -1,0 +1,40 @@
+{
+  "employee": [
+    {
+      "id": "5080",
+      "firstname": "Kiruthiga",
+      "lastname": "V",
+      "email": "vkiruthiga390@gmail.com",
+      "phone": "9360306638",
+      "address": "AAA Street",
+      "state": "Tamil Nadu",
+      "city": "Trichy",
+      "postcode": "62008",
+      "country": "India"
+    },
+    {
+      "id": "a4af",
+      "firstname": "Santhosh",
+      "lastname": "V",
+      "email": "santhosh@gmail.com",
+      "phone": "8989898989",
+      "address": "BBB Street",
+      "state": "New York",
+      "city": "canada",
+      "postcode": "721-982",
+      "country": "United States"
+    },
+    {
+      "id": "c5b9",
+      "firstname": "Kaviya",
+      "lastname": "S",
+      "email": "Kaviya@gmail.com",
+      "phone": "9090909090",
+      "address": "CCC street",
+      "state": "Ha'apai",
+      "city": "SSS",
+      "postcode": "345-987",
+      "country": "Tonga"
+    }
+  ]
+}
