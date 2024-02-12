@@ -4,6 +4,9 @@ import demo1 from "../images/demo2.png";
 import content from "../images/content.png";
 import shape from "../images/shape_1.png";
 import arrow from "../images/arrow.png";
+import website from "../images/website.png";
+import software from "../images/software.png";
+import android from "../images/android.png";
 
 const Content = () => {
   return (
@@ -91,7 +94,7 @@ const Content = () => {
             <div class="col-lg-4 mb-4">
               <div class="card">
                 <img
-                  src="https://img.freepik.com/premium-vector/app-development-modern-flat-concept-web-banner_9209-1015.jpg?size=626&ext=jpg&ga=GA1.1.2124985993.1705945109&semt=ais"
+                src={android}
                   alt=""
                   class="card-img-top"
                 />
@@ -110,7 +113,7 @@ const Content = () => {
             <div class="col-lg-4 mb-4">
               <div class="card">
                 <img
-                  src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?size=626&ext=jpg&ga=GA1.1.2124985993.1705945109&semt=ais"
+                src={website}
                   alt=""
                   class="card-img-top"
                 />
@@ -122,7 +125,7 @@ const Content = () => {
                     websites tailored to your unique needs and vision. From
                     sleek and modern designs to robust e-commerce solutions, we
                     transform your ideas into stunning online realities. With a
-                    focus on user experience and functionality.{" "}
+                    focus on user experience .{" "}
                   </p>
                 </div>
               </div>
@@ -130,7 +133,7 @@ const Content = () => {
             <div class="col-lg-4 mb-4">
               <div class="card">
                 <img
-                  src="https://img.freepik.com/free-photo/medium-shot-woman-working-laptop_23-2150323516.jpg?size=626&ext=jpg&ga=GA1.1.2124985993.1705945109&semt=ais"
+                src={software}
                   alt=""
                   class="card-img-top"
                 />
