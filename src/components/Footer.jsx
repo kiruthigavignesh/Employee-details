@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <h1 class=" footer-text p-5 text-white  text-center  ">
+        <h1 className=" footer-text p-5 text-white  text-center  ">
           We Welcome Your Passion and Expertise
         </h1>
-        <div class="d-flex justify-content-center align-items-center border-1 ">
+        <div className="d-flex justify-content-center align-items-center border-1 ">
           <button
             type="button"
-            class="footer-button p-2  btn btn-success d-flex justify-content-center 
+            className="footer-button p-2  btn btn-success d-flex justify-content-center 
      align-items-center gap-2  "
           >
             <svg
@@ -60,23 +60,23 @@ const Footer = () => {
             Join With Us
           </button>
         </div>
-        <div class="footer-top">
-          <div class="container">
-            <div class="row">
-              <hr class=" hr-line " />
-              <div class="col-lg-2 col-md-6 footer-links">
-                <h4 class="heading-text">Contact us</h4>
-                <ul class="pt-3">
-                  <li class="list-unstyled mb-2 terms  text-decoration-none footer-cont ">
+        <div className="footer-top">
+          <div className="container">
+            <div className="row">
+              <hr className=" hr-line " />
+              <div className="col-lg-2 col-md-6 footer-links">
+                <h4 className="heading-text">Contact us</h4>
+                <ul className="pt-3">
+                  <li className="list-unstyled mb-2 terms  text-decoration-none footer-cont ">
                     KNILA IT Solutions India Pvt Ltd,
                   </li>
-                  <li class="list-unstyled mb-2  text-decoration-none footer-cont ">
+                  <li className="list-unstyled mb-2  text-decoration-none footer-cont ">
                     Mohan Business Park, 3rd floor,
                   </li>
-                  <li class="list-unstyled mb-2  text-decoration-none footer-cont ">
+                  <li className="list-unstyled mb-2  text-decoration-none footer-cont ">
                     Coimbatore.
                   </li>
-                  <li class="social-icons list-unstyled d-flex gap-3">
+                  <li className="social-icons list-unstyled d-flex gap-3">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="25"
@@ -183,126 +183,126 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div class="col-lg-2 col-md-6 footer-links">
-                <h4 class="heading-text">Quick Links </h4>
-                <ul class="pt-3">
-                  <li class="list-unstyled mb-2 ">
+              <div className="col-lg-2 col-md-6 footer-links">
+                <h4 className="heading-text">Quick Links </h4>
+                <ul className="pt-3">
+                  <li className="list-unstyled mb-2 ">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       About Us
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2">
+                  <li className="list-unstyled mb-2">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Blog
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2">
+                  <li className="list-unstyled mb-2">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Careers
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2">
+                  <li className="list-unstyled mb-2">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Contact us
                     </a>
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-2 col-md-6 footer-links">
-                <h4 class="heading-text">Support</h4>
-                <ul class="pt-3">
-                  <li class="list-unstyled mb-2 ">
+              <div className="col-lg-2 col-md-6 footer-links">
+                <h4 className="heading-text">Support</h4>
+                <ul className="pt-3">
+                  <li className="list-unstyled mb-2 ">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Contact
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2">
+                  <li className="list-unstyled mb-2">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Legal Notice
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2">
+                  <li className="list-unstyled mb-2">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Privacy Policy
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2 terms  ">
+                  <li className="list-unstyled mb-2 terms  ">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Terms & Conditions
                     </a>
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-2 col-md-6 footer-contact">
-                <h4 class="heading-text">Other Links</h4>
-                <ul class="pt-3">
-                  <li class="list-unstyled mb-2 ">
+              <div className="col-lg-2 col-md-6 footer-contact">
+                <h4 className="heading-text">Other Links</h4>
+                <ul className="pt-3">
+                  <li className="list-unstyled mb-2 ">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       What We Do
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2">
+                  <li className="list-unstyled mb-2">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Our Approach
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2">
+                  <li className="list-unstyled mb-2">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Join with us
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2 terms  ">
+                  <li className="list-unstyled mb-2 terms  ">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Training
                     </a>
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-2 col-md-6 footer-contact">
-                <h4 class="heading-text">Our Locations</h4>
-                <ul class="pt-3">
-                  <li class="list-unstyled mb-2 ">
+              <div className="col-lg-2 col-md-6 footer-contact">
+                <h4 className="heading-text">Our Locations</h4>
+                <ul className="pt-3">
+                  <li className="list-unstyled mb-2 ">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Germany
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2">
+                  <li className="list-unstyled mb-2">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       Russia
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2">
+                  <li className="list-unstyled mb-2">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       France
                     </a>
                   </li>
-                  <li class="list-unstyled mb-2 terms  ">
+                  <li className="list-unstyled mb-2 terms  ">
                     {" "}
-                    <a href="#" class=" footer-link text-decoration-none ">
+                    <a href="#" className=" footer-link text-decoration-none ">
                       UK
                     </a>
                   </li>
                 </ul>
               </div>
-              <div class="col-lg-2 col-md-6 footer-contact">
-                <h4 class="heading-text">Download</h4>
+              <div className="col-lg-2 col-md-6 footer-contact">
+                <h4 className="heading-text">Download</h4>
                 <ul>
-                  <div class="download-app">
+                  <div className="download-app">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="25"
@@ -316,13 +316,13 @@ const Footer = () => {
                       />
                     </svg>
                     <div>
-                      <p class="donwload-font">Download on the</p>
-                      <p class="app-font">App Store</p>
+                      <p className="donwload-font">Download on the</p>
+                      <p className="app-font">App Store</p>
                     </div>
                   </div>
                 </ul>
                 <ul>
-                  <div class="download-app">
+                  <div className="download-app">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="25"
@@ -336,21 +336,21 @@ const Footer = () => {
                       />
                     </svg>
                     <div>
-                      <p class="donwload-font">Get it on</p>
-                      <p class="app-font">Google Play</p>
+                      <p className="donwload-font">Get it on</p>
+                      <p className="app-font">Google Play</p>
                     </div>
                   </div>
                 </ul>
               </div>
             </div>
 
-            <hr class=" hr-line " />
-            <div class="footer-top">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-12  col-md-12 footer-links">
-                    <ul class="pt-3">
-                      <li class="list-unstyled mb-2  footer-cont text-decoration-none d-flex justify-content-center ">
+            <hr className=" hr-line " />
+            <div className="footer-top">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12  col-md-12 footer-links">
+                    <ul className="pt-3">
+                      <li className="list-unstyled mb-2  footer-cont text-decoration-none d-flex justify-content-center ">
                         © 2024 KNILA IT Solutions India Pvt Ltd - All rights
                         reserved.
                       </li>
