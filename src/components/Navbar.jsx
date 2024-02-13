@@ -40,14 +40,14 @@ function Navigationbar() {
                   <Nav.Link href="/" className="menu-items">
                     Home
                   </Nav.Link>
-                  <Nav.Link href="#" className="menu-items">
+                  <Nav.Link href="/" className="menu-items">
                     Services
                   </Nav.Link>
 
-                  <Nav.Link href="#" className="menu-items">
+                  <Nav.Link href="/" className="menu-items">
                     Blog
                   </Nav.Link>
-                  <Nav.Link href="#" className="menu-items">
+                  <Nav.Link href="/" className="menu-items">
                     Contact
                   </Nav.Link>
                   <Link to="/employee" className="text-decoration-none">

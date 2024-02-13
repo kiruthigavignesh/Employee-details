@@ -12,7 +12,7 @@ const EmployeeEdit = () => {
         return res.json();
       })
       .then((resp) => {
-        firstnamechange(resp.firstname);
+        firstnamechange(resp.firstname); 
         lastnamechange(resp.lastname);
         emailchange(resp.email);
         phonechange(resp.phone);

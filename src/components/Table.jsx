@@ -3,38 +3,17 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaEdit, FaSort, FaSortDown, FaSortUp } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import { IoDocumentText } from "react-icons/io5";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { toast } from "react-toastify";
-import { Tooltip } from "bootstrap";
+import { Tooltip } from "bootstrap"; 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const Table = () => {
   const [empdata, empdatachange] = useState(null);
   const [sortField, setSortField] = useState(null);
   const [sortOrder, setSortOrder] = useState("asc");
   const navigate = useNavigate();
-
-  const LoadDetail = (id) => {
-    navigate("/employee/detail/" + id);
-  };
-  const LoadEdit = (id) => {
-    navigate("/employee/edit/" + id);
-  };
-  const Removefunction = (id) => {
-    if (window.confirm("Do you want to remove?")) {
-      fetch("http://localhost:8000/employee/" + id, {
-        method: "DELETE",
-      })
-        .then((res) => {
-          toast.success("Details Removed Successfully!");
-          setTimeout(() => {
-            window.location.reload();
-          }, 2000);
-        })
-        .catch((err) => {
-          console.log(err.message);
-        });
-    }
-  };
+ 
 
   useEffect(() => {
     fetch("http://localhost:8000/employee")
@@ -62,6 +41,32 @@ const Table = () => {
     };
   }, [empdata]);
 
+
+   
+  const LoadDetail = (id) => {
+    navigate("/employee/detail/" + id);
+  };
+  
+  const LoadEdit = (id) => {
+    navigate("/employee/edit/" + id);
+  };
+
+  const Removefunction = (id) => {
+    if (window.confirm("Do you want to remove?")) {
+      fetch("http://localhost:8000/employee/" + id, {
+        method: "DELETE",
+      })
+        .then((res) => {
+          toast.success("Details Removed Successfully!");
+          setTimeout(() => {
+            window.location.reload();
+          }, 2000);
+        })
+        .catch((err) => {
+          console.log(err.message);
+        });
+    }
+  };
   const toggleSortOrder = (field) => {
     if (sortField === field) {
       setSortOrder(sortOrder === "asc" ? "desc" : "asc");
@@ -226,8 +231,8 @@ const Table = () => {
               )}
             </table>
           </div>
-        </div>
-      </div>
+        </div> 
+      </div> 
     </div>
   );
 };
